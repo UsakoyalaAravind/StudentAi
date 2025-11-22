@@ -107,7 +107,7 @@ The text presents a comprehensive overview of the topic, highlighting important 
           <div className="flex items-center space-x-4">
             <Link to="/dashboard" className="flex items-center space-x-2">
               <Brain className="h-8 w-8 text-primary" />
-              <h1 className="text-2xl font-bold gradient-primary bg-clip-text text-transparent">
+              <h1 className="text-2xl font-bold  bg-clip-text ">
                 StudyAI
               </h1>
             </Link>
@@ -127,7 +127,7 @@ The text presents a comprehensive overview of the topic, highlighting important 
         {/* Hero Section */}
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold mb-4">
-            <span className="gradient-primary bg-clip-text text-transparent">AI-Powered</span> Document Summarizer
+            <span className=" bg-clip-text ">AI-Powered</span> Document Summarizer
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Transform lengthy documents and texts into concise, structured summaries in seconds

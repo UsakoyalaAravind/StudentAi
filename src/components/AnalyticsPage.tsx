@@ -81,7 +81,7 @@ export const AnalyticsPage = () => {
           <div className="flex items-center space-x-4">
             <Link to="/dashboard" className="flex items-center space-x-2">
               <Brain className="h-8 w-8 text-primary" />
-              <h1 className="text-2xl font-bold gradient-primary bg-clip-text text-transparent">
+              <h1 className="text-2xl font-bold bg-clip-text">
                 StudyAI
               </h1>
             </Link>
@@ -105,7 +105,7 @@ export const AnalyticsPage = () => {
               <div className="flex items-center justify-between">
                 <div>
                   <p className="text-sm font-medium opacity-90">Total Study Hours</p>
-                  <p className="text-3xl font-bold">127.5</p>
+                  <p className="text-3xl font-bold">2</p>
                   <p className="text-sm opacity-75">This month</p>
                 </div>
                 <Clock className="h-8 w-8 opacity-80" />
@@ -118,7 +118,7 @@ export const AnalyticsPage = () => {
               <div className="flex items-center justify-between">
                 <div>
                   <p className="text-sm font-medium opacity-90">Quizzes Completed</p>
-                  <p className="text-3xl font-bold">47</p>
+                  <p className="text-3xl font-bold">4</p>
                   <p className="text-sm opacity-75">Average: 91%</p>
                 </div>
                 <Trophy className="h-8 w-8 opacity-80" />
@@ -131,7 +131,7 @@ export const AnalyticsPage = () => {
               <div className="flex items-center justify-between">
                 <div>
                   <p className="text-sm font-medium opacity-90">Tasks Completed</p>
-                  <p className="text-3xl font-bold">156</p>
+                  <p className="text-3xl font-bold">15</p>
                   <p className="text-sm opacity-75">98% completion rate</p>
                 </div>
                 <CheckCircle className="h-8 w-8 opacity-80" />
@@ -144,7 +144,7 @@ export const AnalyticsPage = () => {
               <div className="flex items-center justify-between">
                 <div>
                   <p className="text-sm font-medium opacity-90">Study Streak</p>
-                  <p className="text-3xl font-bold">12</p>
+                  <p className="text-3xl font-bold">5</p>
                   <p className="text-sm opacity-75">Days in a row</p>
                 </div>
                 <TrendingUp className="h-8 w-8 opacity-80" />

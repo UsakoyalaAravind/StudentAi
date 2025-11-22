@@ -167,7 +167,7 @@ export const TaskManagerPage = () => {
           <div className="flex items-center space-x-4">
             <Link to="/dashboard" className="flex items-center space-x-2">
               <Brain className="h-8 w-8 text-primary" />
-              <h1 className="text-2xl font-bold gradient-primary bg-clip-text text-transparent">
+              <h1 className="text-2xl font-bold  bg-clip-text ">
                 StudyAI
               </h1>
             </Link>

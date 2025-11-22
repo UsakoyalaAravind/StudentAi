@@ -123,7 +123,7 @@ export const Dashboard = () => {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Brain className="h-8 w-8 text-primary" />
-            <h1 className="text-2xl font-bold gradient-primary bg-clip-text text-transparent">
+            <h1 className="text-2xl font-bold bg-clip-text ">
               StudyAI
             </h1>
           </div>
@@ -143,7 +143,7 @@ export const Dashboard = () => {
         {/* Welcome Section */}
         <div className="mb-8">
           <h1 className="text-3xl font-bold mb-2">
-            Welcome back, <span className="gradient-primary bg-clip-text text-transparent">Sarah!</span>
+            Welcome back, <span className="bg-clip-text ">User!</span>
           </h1>
           <p className="text-muted-foreground text-lg">
             Ready to continue your learning journey? Here's what's happening today.
